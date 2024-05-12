@@ -1,0 +1,306 @@
+ .bodies{
+    background-image: url(Yzg5.gif);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ body{
+    background-image: url(Yzg5.gif);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+
+.login-container {
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 150px;
+}
+.sign-inbtn:hover{
+    background-color: darkblue;
+}
+.homepage-nav
+{
+  position: relative;
+  right: 20px;
+  background-color: gray;
+  border-radius: 50px;
+  
+}
+.homepage-nav li
+{
+    display: inline-block;
+    margin-left: 140px;
+    position: relative;
+    right: 100px;
+}
+.homepage-nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    align-items: flex-end;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    background-color: #007bff;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+}
+.homepage-nav ul li a:hover{  
+    background-color:darkblue;
+     color: white;
+}
+.aboutus ul li a{
+    text-decoration: none;
+    display: inline-block;
+    align-items: flex-end;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    background-color: #007bff;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+}
+.aboutus ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    bottom: 170px;
+    
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.back-btn a{
+    background-color: #007bff;
+    color: white;
+    border-radius: 30px;  
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 183px;
+    bottom: 19px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.back-btn a:hover{
+    background-color:darkblue;
+
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.loginbtn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.loginbtn:hover {
+    background-color: blue;
+}
+.fgt a{
+   text-decoration: none;
+   position: relative;
+   margin-top: 30px;
+   color:blue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fgt{
+    text-align: center; 
+}
+.label1,.label2{
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-left: 40px;
+    margin: 25px;
+     color: #f0f0f0;
+}
+.header2{
+    position: absolute;
+    left: 413px;
+    top: 100px;
+}
+h3{
+    margin-left: 188px;
+    font-size: 25px;
+    margin-bottom: 70px;
+    color: #f0f0f0;
+}
+.btn1 li {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.btn1 a{
+    text-decoration: none;
+    border: solid blue;
+    background-color:blue;
+    border-radius: 15px;
+    color: white;
+    padding: 0px 100px;
+}
+.btn1 .login-btn a{
+    padding-right:109px;
+}
+.login-container1{
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin-bottom: 250px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    right: 600px;
+    bottom: 5px;
+}
+.btn1{
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+}
+.btn1 li a:hover{
+    background-color: darkblue;
+}
+.createacc {
+    position: relative;
+    margin-top: 120px;
+    margin-right: 90px;
+    left: 45px;
+}
+.createacc p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.createacc a{
+    text-decoration: none;
+    color: #007bff;
+}
+.header1{
+    position: absolute;
+    top: 5px;
+    color: white;  
+}
+.sign-up-container{
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 170px;
+}
+.sign-inbtn{
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    border-radius: 25px;
+    position: absolute;
+    left: 136px;
+}
+.forgot-container{
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 170px;
+}
+.label4{
+    color: skyblue;
+    
+}
+.continuebtn{
+    background-color: #007bff;
+    color: white;
+    border-radius: 30px;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.continuebtn:hover{
+    background-color: darkblue;
+}
+.textarea{
+    border-radius: 30px;
+}
+.forgot-header{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+main {
+  padding: 20px;
+  position: relative;
+  left: 150px;
+  top: 150px;  
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: white;
+}
+.footer {
+  position: relative;  
+  top: 470px;
+  right: 595px;
+  font-size: 15px;
+  text-align: center;
+}
+.subtitle{
+    text-align: center;
+    color: white;
+}
+.content{
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    
+}

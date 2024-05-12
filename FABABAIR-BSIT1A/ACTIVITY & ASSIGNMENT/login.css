@@ -1,0 +1,80 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.login-container
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 400px;
+   height: 450px;
+   border: 2px black solid;
+   margin-left: 35%;
+   margin-top: 15%;
+}
+.hr1
+{
+    width: 400px;
+    position: relative;
+    right: 15px;
+    bottom: 8px;
+}
+.login-title
+{
+    position: relative;
+    bottom: 190px;
+    left: 220px;
+    
+}
+.login
+{
+    position: relative;
+    left: 125px;
+}
+.login-content
+{
+    display: inline-block;
+    position: relative;
+    right: 300px;
+    padding-top: 90px;
+    padding-left: 90px;
+    
+
+}
+.Label1
+{
+    position: relative;
+    bottom: 90px;
+    left: 25px;
+    font-size: 25px;
+}
+.Input1
+{
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    padding: 5px 0px;
+    padding-right: 150px;
+}
+.Label2
+{
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+  font-size: 25px;
+}
+.Input2
+{
+  padding: 5px 0px;
+  padding-right: 150px;
+  position: relative;
+  bottom: 25px;
+  left: 50px;
+}
+    
+
+    
+    
+
